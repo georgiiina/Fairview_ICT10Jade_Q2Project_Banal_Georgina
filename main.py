@@ -1,6 +1,6 @@
 from pyscript import document
 
-
+# Project
 showcase_pages = {
     "Homepage (Seatwork 1)": "Club Member Checker",
     "Element Checker (Skills Test)": "Non-Metal Elements Info Finder",
@@ -17,7 +17,7 @@ creator_profile = {
     "Favorite Quote": "She believed she could, so she did."
 }
 
-
+# Skills Test
 def load_creator_info():
     """Populates creator profile details and item count using dict and len()."""
   
@@ -61,6 +61,7 @@ def periodic(e):
         Atomic Mass: {var2[2]}
     """
 
+# Seatwork 1
 def checkmember(e):
     
     club_members = ["georgina banal", "adriana averilla", "isaias berdin", "cameron bufford", "carlos david"]
@@ -75,7 +76,7 @@ def checkmember(e):
     
     document.getElementById("output1").innerHTML = message[confirm_member]
 
-
+# Drill #2
 def add_member(e):
     document.getElementById("output1").innerHTML = ""
 
